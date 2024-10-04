@@ -10,19 +10,19 @@ const Navigation = () => {
       <div className="flex flex-wrap items-center gap-10 flex-1">
         <ul className="flex">
           <li>
-            <a href="/">breads</a>
+            <a href="/breads">breads</a>
           </li>
           <li>
-            <a href="/">cakes</a>
+            <a href="/cakes">cakes</a>
           </li>
           <li>
-            <a href="/">cookies</a>
+            <a href="/cookies">cookies</a>
           </li>
           <li>
-            <a href="/">mooncakes</a>
+            <a href="/mooncakes">mooncakes</a>
           </li>
           <li>
-            <a href="/">specialized cakes</a>
+            <a href="/specialized_cakes">specialized cakes</a>
           </li>
         </ul>
       </div>
