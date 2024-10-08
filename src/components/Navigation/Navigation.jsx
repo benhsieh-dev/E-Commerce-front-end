@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <nav className="flex items-center py-6 px-20 justify-between">
+    <nav className="flex items-center py-6 px-20 justify-between gap-40">
       <div className="flex items-center gap-20">
         {/* logo */}
         <a className="text-3xl text-black gap-20" href="/">
@@ -10,7 +10,7 @@ const Navigation = () => {
         </a>
       </div>
       <div className="flex flex-wrap items-center gap-20 flex-1">
-        <ul className="flex gap-14">
+        <ul className="flex gap-14 text-gray-600 hover:text-black">
           <li className="text-gray-600 hover:text-black">
             <a href="/breads">breads</a>
           </li>
