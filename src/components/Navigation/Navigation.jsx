@@ -28,7 +28,13 @@ const Navigation = () => {
           </li>
         </ul>
       </div>
-      <div>{/* Search bar*/}</div>
+      <div className="flex justify-center">{/* Search bar*/}
+        <div className='border rounded flex overflow-hidden'>
+            <button className='flex items-center justify-center px-4 border-1'>
+                <svg className="h-4 w-4 text-grey-dark" fill='currentColor' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' />
+            </button>
+        </div>
+      </div>
       <div>{/* Action items */}</div>
     </nav>
   );
