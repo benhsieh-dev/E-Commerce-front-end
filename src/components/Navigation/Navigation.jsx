@@ -48,7 +48,14 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-      <div>{/* Action items */}</div>
+      <div className="flex flex-wrap items-center gap-4">
+        {/* Action items */}
+        <ul className="flex items-center">
+          <li>Icon1</li>
+          <li>Icon2</li>
+          <li>Icon3</li>
+        </ul>
+      </div>
     </nav>
   );
 }
