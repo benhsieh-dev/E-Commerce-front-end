@@ -50,7 +50,7 @@ const Navigation = () => {
       </div>
       <div className="flex flex-wrap items-center gap-4">
         {/* Action items */}
-        <ul className="flex items-center">
+        <ul className="flex items-center gap-8">
           <li>Icon1</li>
           <li>Icon2</li>
           <li>Icon3</li>
