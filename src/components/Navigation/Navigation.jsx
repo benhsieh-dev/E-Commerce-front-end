@@ -1,5 +1,6 @@
 import React from 'react'
 import Wishlist from '../Common/Wishlist';
+import { CartIcon } from '../Common/Carticon';
 
 const Navigation = () => {
   return (
@@ -52,9 +53,15 @@ const Navigation = () => {
       <div className="flex flex-wrap items-center gap-4">
         {/* Action items */}
         <ul className="flex items-center gap-8">
-          <li><button><Wishlist /></button></li>
+          <li>
+            <button>
+              <Wishlist />
+            </button>
+          </li>
           <li>Icon2</li>
-          <li>Icon3</li>
+          <li>       
+              <CartIcon />
+          </li>
         </ul>
       </div>
     </nav>
