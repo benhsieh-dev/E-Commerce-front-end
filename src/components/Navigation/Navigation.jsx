@@ -1,6 +1,7 @@
 import React from 'react'
 import Wishlist from '../Common/Wishlist';
-import { CartIcon } from '../Common/Carticon';
+import { CartIcon } from '../Common/CartIcon';
+import { AccountIcon } from '../Common/AccountIcon';
 
 const Navigation = () => {
   return (
@@ -58,7 +59,7 @@ const Navigation = () => {
               <Wishlist />
             </button>
           </li>
-          <li>Icon2</li>
+          <li><AccountIcon /></li>
           <li>       
               <CartIcon />
           </li>
